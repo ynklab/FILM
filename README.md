@@ -2,18 +2,19 @@
 
 **FILM** is a visual question answering (VQA) task dataset presented in [COGSCI 2025](https://cognitivesciencesociety.org/cogsci-2025/).
 
+Images in FILM are categorized into genuine and fake illusions, along with corresponding control images.
+Genuine illusions present discrepancies between actual and apparent features, whereas fake illusions have the same actual and apparent features even though they look illusory due to the similar geometric configuration.
+
+
+
 ## Data
 
 - **FILM_images/**  
   This folder contains all image files used in the VQA experiments. Subdirectories are organized by image type:
-  - `01_genuine_illusion_original/`  
-    Contains genuine illusion images.
-  - `02_genuine_illusion_control/`  
-    Contains control images corresponding to genuine illusion images.
-  - `03_fake_illusion_original/`  
-    Contains fake illusion images.
-  - `04_fake_illusion_control/`  
-    Contains control images corresponding to fake illusion images.
+  - `01_genuine_illusion_original/`: Contains genuine illusion images.
+  - `02_genuine_illusion_control/`: Contains control images corresponding to genuine illusion images.
+  - `03_fake_illusion_original/`: Contains fake illusion images.
+  - `04_fake_illusion_control/`: Contains control images corresponding to fake illusion images.
 
 - **FILM_VQA.tsv**  
   A TSV file with VQA annotations. Each row includes:
