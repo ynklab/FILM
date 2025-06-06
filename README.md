@@ -20,9 +20,9 @@ Genuine illusions present discrepancies between actual and apparent features, wh
   A TSV file with VQA annotations. Each row includes:
   - `id`: Unique item ID.
   - `file_name`: Image filename.
-  - `question (actual)`, `options (actual)`, `answer (actual)`: Question and answer choices about the image’s actual property.
-  - `question (apparent)`, `options (apparent)`, `answer (apparent)`: Question and answer choices about the image’s apparent property.
-  - `illusion category`: Type of illusion (e.g., `color`, `brightness`, `length`).
+  - `question (actual)`, `options (actual)`, `answer (actual)`: Question and answer choices about the image’s actual feature.
+  - `question (apparent)`, `options (apparent)`, `answer (apparent)`: Question and answer choices about the image’s apparent feature.
+  - `illusion category`: Category of the image's illusory feature (e.g., `color`, `brightness`, `length`).
 
 
 ## Citation
