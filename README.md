@@ -22,7 +22,7 @@ Genuine illusions present discrepancies between actual and apparent features, wh
   - `file_name`: Image filename.
   - `question (actual)`, `options (actual)`, `answer (actual)`: Question and answer choices about the image’s actual feature.
   - `question (apparent)`, `options (apparent)`, `answer (apparent)`: Question and answer choices about the image’s apparent feature.
-  - `illusion category`: Category of the image's illusory feature (e.g., `color`, `brightness`, `length`).
+  - `illusion category`: Category of the image’s illusory feature (e.g., `color`, `brightness`, `length`).
 
 
 ## Citation
