@@ -1,12 +1,10 @@
 # FILM: Fake Illusions for LVLMs
 
-**FILM** is a visual question answering (VQA) task dataset presented in [COGSCI 2025](https://cognitivesciencesociety.org/cogsci-2025/).
+**FILM** is a visual question answering (VQA) task dataset for large vision-language models presented in [COGSCI 2025](https://cognitivesciencesociety.org/cogsci-2025/).
 
 Images in FILM are categorized into genuine and fake illusions, along with corresponding control images.
 Genuine illusions present discrepancies between actual and apparent features, whereas fake illusions have the same actual and apparent features even though they look illusory due to the similar geometric configuration. 
 Control images are modified versions of illusion images in which the illusion inducing elements are removed to eliminate the illusory effect.
-
-
 
 ## Data
 
@@ -25,8 +23,26 @@ Control images are modified versions of illusion images in which the illusion in
   - `question (apparent)`, `options (apparent)`, `answer (apparent)`: Question and answer choices about the image’s apparent feature.
   - `illusion category`: Category of the image’s illusory feature (e.g., `color`, `brightness`, `length`).
 
+## Citation
 
 ## Citation
+If you use this dataset in any published research, please cite the following manuscript:
+
+- Shinozaki, T., Doi, T., Watahiki, A., Nishida, S., & Yanaka, H. (2025). Do large vision-language models distinguish between the actual and apparent features of illusions? Manuscript accepted for presentation at the 47th Annual Meeting of the Cognitive Science Society. (To appear)
+
+**Note**: The proceedings paper is forthcoming. Please check back for an updated BibTeX entry once it is officially published.
+
+```bibtex
+@inproceedings{shinozaki-2025-illusion,
+  title     = {Do Large Vision-Language Models Distinguish between the Actual and Apparent Features of Illusions?},
+  author    = {Shinozaki, Taiga and Doi, Tomoki and Watahiki, Amane and Nishida, Satoshi and Yanaka, Hitomi},
+  booktitle = {To appear in the Proceedings of the 47th Annual Meeting of the Cognitive Science Society},
+  year      = {2025},
+  note      = {Manuscript accepted for presentation},
+}
+```
+
+<!--
 If you use this dataset in any published research, please cite the following:
 - Shinozaki, T., Doi, T., Watahiki, A., Nishida, S., & Yanaka, H. (2025). Do large vision-language models distinguish between the actual and apparent features of illusions? Proceedings of the Annual Meeting of the Cognitive Science Society, 47.
 
@@ -41,6 +57,7 @@ If you use this dataset in any published research, please cite the following:
   publisher = "The Cognitive Science Society",
 }
 ```
+-->
 
 ## Contact
 For questions, please contact snzktig@keio.jp .
