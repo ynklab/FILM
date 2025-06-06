@@ -3,7 +3,8 @@
 **FILM** is a visual question answering (VQA) task dataset presented in [COGSCI 2025](https://cognitivesciencesociety.org/cogsci-2025/).
 
 Images in FILM are categorized into genuine and fake illusions, along with corresponding control images.
-Genuine illusions present discrepancies between actual and apparent features, whereas fake illusions have the same actual and apparent features even though they look illusory due to the similar geometric configuration.
+Genuine illusions present discrepancies between actual and apparent features, whereas fake illusions have the same actual and apparent features even though they look illusory due to the similar geometric configuration. 
+Control images are modified versions of illusion images in which the illusion inducing elements are removed to eliminate the illusory effect.
 
 
 
